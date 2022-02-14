@@ -1,13 +1,110 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  min-height: 80vh;
+}
+
+input {
+  float: right;
+  /* margin-right: 10px; */
+}
+
+header {
+  padding-left: 276px;
+  padding-top: 97px;
+  padding-bottom: 67px;
+  font-weight: bold;
+  font-size: 36px;
+  background-color: white;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+header > span {
+  font-family: Segoe UI, Semibold;
+}
+
+#root .container {
+  max-width: 1920px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+input[type="text"] {
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid black;
+  border-left: 3px solid white;
+  margin-right: 97.5px;
+  width: 356.5px;
+  outline: none;
+  font-size: 22px;
+  padding-top: 12px;
+}
+
+header > img {
+  float: right;
+  margin-right: -355px;
+  margin-top: 22px;
+  cursor: pointer;
+}
+
+.group2SVG {
+  /* color: #666666; */
+  padding-left: 172px;
+  margin-right: 45px;
+}
+
+.path73SVG {
+  padding-left: 172px;
+  margin-top: -200px;
+  cursor: pointer;
+}
+
+.path41SVG {
+  cursor: pointer;
+}
+
+.container table {
+  margin-top: 61px;
+  vertical-align: middle;
+}
+.container table tbody tr td:nth-child(2) {
+  width: 600px;
+}
+.container table tbody tr td:nth-child(3) {
+  width: 500px;
+}
+.container table tbody tr td:nth-child(4) {
+  width: 400px;
+}
+
+.container {
+  background: transparent url("img/Rectangle 1.png") 0% 0% no-repeat padding-box;
+}
+
+.container .table-bordered > :not(caption) > * > * {
+  border-width: 0 0px;
+  padding: 1.5rem 0.5rem;
+}
+
+tr > td:first-child {
+  width: 250px;
+}
+
+thead > tr {
+  border-top: 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+/* thead > tr > th:first-child {
+  background-color: aliceblue;
+  border-bottom: 0px;
+} */
+
+.custom-component {
+  opacity: 0.2;
 }
